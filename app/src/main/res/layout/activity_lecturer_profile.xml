@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic1"
+    tools:context=".lecturer_profile">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:background="@color/google"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/profileimg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/avatar" />
+
+        <TextView
+            android:id="@+id/lecfullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/profileimg"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/lecfullname"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/typelec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lecfullname"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/profileimg"
+            android:includeFontPadding="false"
+            android:text="@string/typelec"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/taglecfirst"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:hint="@string/taglecfirst"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lecfirst"
+            android:layout_width="335dp"
+            android:layout_height="match_parent"
+            android:drawablePadding="15dp"
+            android:text="@string/lecfirst">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/eduquali"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/eduquali"
+        app:layout_constraintEnd_toEndOf="@+id/taglecfirst"
+        app:layout_constraintStart_toStartOf="@+id/taglecfirst"
+        app:layout_constraintTop_toBottomOf="@+id/taglecfirst">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/leclast"
+            android:layout_width="335dp"
+            android:layout_height="match_parent"
+            android:drawablePadding="15dp"
+            android:text="@string/leclast">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/modPay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/inputEmailAdd"
+        app:layout_constraintEnd_toEndOf="@+id/eduquali"
+        app:layout_constraintStart_toStartOf="@+id/eduquali"
+        app:layout_constraintTop_toBottomOf="@+id/eduquali">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lecmail"
+            android:layout_width="335dp"
+
+            android:layout_height="match_parent"
+            android:drawablePadding="15dp"
+            android:text="@string/lecmail">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/btnupdate"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/RR1"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/modPay" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="@string/btnchangepass"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/RR1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
