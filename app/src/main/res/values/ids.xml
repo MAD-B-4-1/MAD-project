@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="hallid" type="id" />
+    <item name="hallID" type="id" />
+    <item name="modulename" type="id" />
+    <item name="lecturename" type="id" />
+    <item name="hall_id" type="id" />
+    <item name="delete_id" type="id" />
+    <item name="update_id" type="id" />
+</resources>

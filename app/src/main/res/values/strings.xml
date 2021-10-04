@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HallManagement</string>
+    <string name="lecturer_name">Lecturer Name</string>
+    <string name="head">Add Hall Details</string>
+    <string name="hallID">Hall ID</string>
+    <string name="time">Time</string>
+    <string name="moduleID">Module ID</string>
+    <string name="moduleName">Module Name</string>
+    <string name="add_btn">Add</string>
+    <string name="show_btn">Show</string>
+    <string name="head1">Hall Details</string>
+    <string name="headupdate">Edit Hall Details</string>
+    <string name="add_btnupdate">UPDATE</string>
+</resources>
