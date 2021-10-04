@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow
+        android:layout_width="286dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/mod_tv"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/pay_tv"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/credit_tv"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lect_tv"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/more_iv"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/nav"/>
+
+
+    </TableRow>
+
+
+
+</TableLayout>

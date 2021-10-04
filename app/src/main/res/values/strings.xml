@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="head">Add Module Details</string>
+    <string name="add_btn">ADD</string>
+    <string name="show_btn">SHOW</string>
+    <string name="head1">Module Details</string>
+    <string name="headUpdate">Update Module Details</string>
+    <string name="update_btn">UPDATE</string>
+    <string name="check_btn">CHECK</string>
+    <string name="texthint">Before ADD check Data</string>
+</resources>
