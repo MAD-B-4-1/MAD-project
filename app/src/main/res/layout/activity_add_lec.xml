@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic1"
+    tools:context=".AddLec_Activity">
+
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="38dp"
+        android:gravity="center_horizontal"
+        android:text="@string/head"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="406dp"
+        android:layout_height="649dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="82dp"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+
+        <EditText
+            android:id="@+id/lectID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Lecturer ID"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:textSize="29sp" />
+
+        <EditText
+            android:id="@+id/lecname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Lecturer Name"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:textSize="29sp" />
+
+        <EditText
+            android:id="@+id/moduleid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Module ID"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:textSize="29sp" />
+
+        <EditText
+            android:id="@+id/lecmail"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="E-Mail"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:textSize="29sp" />
+
+
+        <EditText
+            android:id="@+id/lecincha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="LecturerInCharge Details"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="7dp"
+            android:onClick="submitData"
+            android:text="@string/add_btn" />
+
+        <Button
+            android:id="@+id/show_btn"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="7dp"
+            android:onClick="showData"
+            android:text="@string/show_btn" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
