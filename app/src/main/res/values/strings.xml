@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lecture Management</string>
+    <string name="head">Add Lecturer Details</string>
+    <string name="add_btn">ADD</string>
+    <string name="show_btn">SHOW</string>
+    <string name="head1">Lecturer Details</string>
+    <string name="headUpdate">Update Lecturer Details</string>
+    <string name="update_btn">UPDATE</string>
+</resources>
