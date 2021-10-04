@@ -23,7 +23,7 @@
             tools:ignore="VectorDrawableCompat" />
 
         <TextView
-            android:id="@+id/lecfullname"
+            android:id="@+id/stuname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -37,7 +37,7 @@
             android:id="@+id/studentid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/lecfullname"
+            android:layout_below="@id/stuname"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/profileimg"
@@ -135,7 +135,7 @@
             android:paddingTop="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:text="@string/btnchangepass"
+            android:text="@string/chapassbtn"
             android:textSize="16sp"
             android:textStyle="bold"
             app:backgroundTint="@color/design_default_color_error"

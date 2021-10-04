@@ -5,9 +5,11 @@
       <map>
         <entry key="..\:/Users/ramya/AndroidStudioProjects/ramya sharma/app/src/main/res/drawable/btn_bg.xml" value="0.15555555555555556" />
         <entry key="..\:/Users/ramya/AndroidStudioProjects/ramya sharma/app/src/main/res/layout/activity_forgetpass.xml" value="0.1796875" />
+        <entry key="..\:/Users/ramya/AndroidStudioProjects/ramya sharma/app/src/main/res/layout/activity_forgetpassword.xml" value="0.25" />
         <entry key="..\:/Users/ramya/AndroidStudioProjects/ramya sharma/app/src/main/res/layout/activity_lecturer_profile.xml" value="0.25" />
         <entry key="..\:/Users/ramya/AndroidStudioProjects/ramya sharma/app/src/main/res/layout/activity_login.xml" value="0.1503623188405797" />
         <entry key="..\:/Users/ramya/AndroidStudioProjects/ramya sharma/app/src/main/res/layout/activity_main.xml" value="0.1503623188405797" />
+        <entry key="..\:/Users/ramya/AndroidStudioProjects/ramya sharma/app/src/main/res/layout/activity_pass.xml" value="0.165" />
         <entry key="..\:/Users/ramya/AndroidStudioProjects/ramya sharma/app/src/main/res/layout/activity_password.xml" value="0.25" />
         <entry key="..\:/Users/ramya/AndroidStudioProjects/ramya sharma/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/ramya/AndroidStudioProjects/ramya sharma/app/src/main/res/layout/activity_student_profile.xml" value="0.25" />

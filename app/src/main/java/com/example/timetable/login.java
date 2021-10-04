@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.timetable.database.DBHelper;
+
 public class login extends AppCompatActivity {
 
     EditText username,password;
@@ -22,11 +24,11 @@ public class login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        username= (EditText) findViewById(R.id.username);
-        password= (EditText) findViewById(R.id.loginpassword);
-        login= (Button) findViewById(R.id.btnLogin);
-        signup1 = (TextView) findViewById(R.id.donthaveacc);
-        forgetpass1 = (TextView) findViewById(R.id.forgetPassword);
+        username=  findViewById(R.id.username);
+        password=  findViewById(R.id.loginpassword);
+        login= findViewById(R.id.btnLogin);
+        signup1 = findViewById(R.id.donthaveacc);
+        forgetpass1 =  findViewById(R.id.forgetPassword);
         DB = new DBHelper(this);
 
         login.setOnClickListener(new View.OnClickListener() {
@@ -42,8 +44,8 @@ public class login extends AppCompatActivity {
                     Boolean checkuserpass = DB.checkusernamepassword(user,pass);
                     if(checkuserpass==true) {
                         Toast.makeText(login.this, "sign in successfully", Toast.LENGTH_SHORT).show();
-                        //Intent intent = new Intent(getApplicationContext(), home.class);
-                        //startActivity(intent);
+                        Intent intent = new Intent(getApplicationContext(), lecturer_profile.class);
+                        startActivity(intent);
                     }
                     else {
                         Toast.makeText(login.this,"Invalid credentials",Toast.LENGTH_SHORT).show();

@@ -16,7 +16,6 @@
     <string name="passold">Old Password</string>
     <string name="passnew">New Password</string>
     <string name="passconf">Confirm Password</string>
-    <string name="btnchangepass">CHANGE PASSWORD</string>
     <string name="inputfirst">Ramya</string>
     <string name="inputmail">it20203580@my,sliit.lk</string>
     <string name="inputeduqua">A/L O/L HNDIT</string>
@@ -35,4 +34,7 @@
     <string name="eduquali">Educational Qualification</string>
     <string name="tageduqua">Educational Qualification</string>
     <string name="tagname">Name</string>
+    <string name="btnreset">RESET PASSWORD</string>
+    <string name="usernamepass">UserName</string>
+    <string name="chapassbtn">CHANGE PASSWORD</string>
 </resources>
